@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clima Fácil </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="cabecalho">
+            <h1> Clima Fácil</h1>
+            <p>Descubra o clima da sua cidade</p>
+        </header>
+
+
+        <section class="pesquisa">
+            <label for="cidade">Digite uma cidade:</label>
+
+            <input
+                type="text"
+                id="cidade"
+                placeholder="Ex: São José dos Campos"
+            >
+        </section>
+
+
+        <section class="resultados">
+
+            <h2>Cidades encontradas</h2>
+
+            <div id="lista-cidades">
+                <!-- As cidades aparecerao aqui -->
+            </div>
+
+        </section>
+
+
+        <section class="previsao">
+
+            <h2>Previsão do tempo</h2>
+
+            <div id="dados-previsao">
+            
+             <!-- A previsão aparecera aqui -->
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
