@@ -53,7 +53,7 @@ function mostrarCidades(cidades) {
         const botao = document.createElement("button");
 
         botao.textContent = `${cidade.nome} - ${cidade.estado}`;
-        botao.classList.add("cidade-item");
+        botao.classList.add("cidade-item","cidade");
 
         botao.addEventListener("click", () => {
             buscarPrevisao(cidade.id);
