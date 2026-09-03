@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #74ebd5,
+        #9face6
+    );
+
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+
+    background-color: white;
+
+    border-radius: 20px;
+    padding: 30px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.cabecalho {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho h1 {
+    color: #4a67d6;
+    font-size: 36px;
+}
+
+.cabecalho p {
+    margin-top: 8px;
+    color: #666;
+}
+
+.pesquisa {
+    margin-bottom: 30px;
+}
+
+.pesquisa label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#cidades {
+    width: 100%;
+    padding: 14px;
+    
+
+    border: 2px solid #c8d0f5;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+}
+
+.cidade {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    border: 2px solid #667eea;
+    border-radius: 10px;
+
+    font-size: 16px;
+}
+
+#cidade:focus {
+    border-color: #667eea;
+}
+
+.resultados,
+.previsao {
+    margin-top: 25px;
+}
+
+.resultados h2,
+.previsao h2 {
+    color: #4a67d6;
+    margin-bottom: 15px;
+}
+
